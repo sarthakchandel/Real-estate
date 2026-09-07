@@ -1,16 +1,103 @@
-# React + Vite
+# 🏠 Real Estate
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **Real Estate frontend application** built with **React** and **Tailwind CSS**. The project focuses on clean UI, reusable components, responsive layouts, and modern frontend development practices.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🏠 Modern real estate property interface
+* 🔍 Property search and filtering UI
+* 📱 Fully responsive design
+* 🎨 Clean and modern UI using Tailwind CSS
+* 🧩 Reusable React components
+* ⚡ Fast development with Vite
+* 📐 Responsive layouts for desktop, tablet, and mobile
+* 🧹 Clean and maintainable code structure
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js** – Frontend library
+* **Tailwind CSS** – Styling and responsive design
+* **JavaScript** – Application logic
+* **Vite** – Development and build tool
+* **HTML5** – Structure
+* **CSS3** – Styling
 
-## Expanding the Oxlint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+real-estate/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sarthakchandel/real-estate.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd real-estate
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local development URL shown in your terminal.
+
+## 🎯 Development Practices
+
+This project follows modern frontend development practices such as:
+
+* Component-based architecture
+* Reusable UI components
+* Responsive design
+* Utility-first styling with Tailwind CSS
+* Clean and organized project structure
+* Consistent naming conventions
+* Separation of UI components and application logic
+
+## 🔮 Future Improvements
+
+* User authentication
+* Backend integration
+* Property booking functionality
+* Property details API
+* Database integration
+* Advanced property search and filters
+* User dashboard
+* Favorites / Wishlist
+* Real-time property data
+
+
+## 👨‍💻 Author
+
+**Sarthak Chandel**
+
+Built with ❤️ using React and Tailwind CSS.
